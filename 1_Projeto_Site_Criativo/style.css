@@ -1,0 +1,104 @@
+/* Redefine margens e preenchimento padrão */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define a fonte padrão do corpo */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estiliza o cabeçalho */
+.cabecalho {
+    background-color: #424E61; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    display: flex; /* Flexbox para layout */
+    justify-content: space-around; /* Espaçamento entre elementos */
+    align-items: center; /* Alinhamento vertical */
+    padding: 24px 0; /* Espaçamento interno */
+}
+
+/* Estiliza a imagem do cabeçalho */
+.cabecalho-imagem {
+    width: 10%; /* Largura da imagem */
+}
+
+/* Estiliza itens da lista do cabeçalho */
+.cabecalho-lista-item {
+    display: inline-block; /* Exibição em linha */
+    margin: 0 16px; /* Margem entre itens */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estiliza a imagem da seção escola */
+.escola-imagem {
+    width: 25%; /* Largura da imagem */
+}
+
+/* Estiliza a seção escola */
+.escola {
+    background-image: linear-gradient(#424E61,#16CFF8); /* Degradê de fundo */
+    color: white; /* Cor do texto */
+    display: flex; /* Flexbox para layout */
+    justify-content: center; /* Alinhamento horizontal */
+    align-items: center; /* Alinhamento vertical */
+    padding: 24px 0; /* Espaçamento interno */
+}
+
+/* Estiliza o conteúdo da seção escola */
+.escola-div-conteudo {
+    width: 35%; /* Largura do conteúdo */
+}
+
+/* Estiliza o título da seção escola */
+.escola-titulo {
+    padding: 24px 0; /* Espaçamento interno */
+}
+
+/* Estiliza a seção estudante */
+.estudante {
+    padding: 24px 0; /* Espaçamento interno */
+}
+
+/* Estiliza a imagem do estudante */
+.estudante-imagem {
+    width: 120px; /* Largura da imagem */
+}
+
+/* Estiliza ícones do estudante */
+.estudante-icone {
+    width: 24px; /* Largura do ícone */
+    padding: 4px 8px; /* Espaçamento interno */
+}
+
+/* Estiliza cada div do estudante */
+.estudante-div {
+    text-align: center; /* Alinhamento centralizado */
+    padding: 16px 0; /* Espaçamento interno */
+}
+
+/* Estiliza o título da seção estudante */
+.estudante-titulo {
+    text-align: center; /* Alinhamento centralizado */
+    padding: 50px 0; /* Espaçamento interno */
+}
+
+/* Estiliza a grade de estudantes */
+.estudante-todos {
+    display: grid; /* Exibição em grade */
+    margin-left: 20%;
+    grid-template-columns: 20% 20% 20% 20% 20%; /* Definição de colunas */
+}
+
+/* Estiliza o rodapé */
+.rodape {
+    background-color: black; /* Cor de fundo */
+    text-align: center; /* Alinhamento centralizado */
+}
+
+/* Estiliza a imagem do rodapé */
+.rodape-imagem {
+    height: 60px; /* Altura da imagem */
+    padding: 12px 0; /* Espaçamento interno */
+}
